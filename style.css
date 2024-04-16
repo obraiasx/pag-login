@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  "Pixelify Sans", sans-serif;
+    background-color: #4169E1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login {
+    width: 750px;
+    height: 80vh;
+    padding: 0 17rem 6.5rem 5.3rem ;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(undraw_monitor_iqpq.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+a {
+    color: white;
+}
+.input {
+    width: 100%;
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: 50px;
+    border: 0;
+}
+.btn{
+    background-color: #4169E1;
+    width: 100%;
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    border: 0;
+    font-weight: 600;
+    color: white;
+}
+.footer
+{
+    text-align: center;
+}
+.container {
+    width: 50%;
+    height: 100%;
+    
+    
+}
+.container-img {
+    margin-top: 8rem;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 500px;
+    margin: 0 ;
+    padding-bottom: 20%;
+}
